@@ -1,46 +1,51 @@
-# Getting Started with Create React App
+# 🚀 Form Application with Sign Up and Login Forms
+This is a React application built with TypeScript and Formik that provides Sign Up and Login forms with validation. The app focuses on clean code practices, good UX, and modern design principles.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🛠️ How to Run the Project
+## Prerequisites
+Make sure you have the following installed on your machine:
 
-## Available Scripts
+1-Node.js (version 14 or higher) - Download from Node.js
+2- npm (comes with Node.js) or Yarn
 
-In the project directory, you can run:
+# Steps to Run
+# 1-Clone the Repository
+git clone https://github.com/your-username/form-app.git
+cd form-app
 
-### `npm start`
+# 2-Install Dependencies
+npm install
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# 3-Start the Development Server
+npm start
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# 4-Open in Browser
+http://localhost:3000
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Assumptions and Limitations
+## Assumptions
+# 1-Simple Authentication Flow:
 
-### `npm run build`
+1-This app assumes a simple frontend-only authentication flow.
+2-No backend is implemented for user authentication.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# 2-Basic Validation Rules:
+1-The validation logic checks for basic email formats and password length.
+2-Password strength is evaluated based on length and basic criteria.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 3-Default Project Structure:
+The project follows a common React structure with components stored in the src/components directory.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Limitations
+# 1-No Backend Integration:
 
-### `npm run eject`
+1-There is no real backend to handle form submissions.
+2-Success messages are displayed on the frontend only.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# 2-Password Strength Logic:
+The password strength indicator is basic and does not evaluate complex criteria (e.g., special characters).
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# 3-Accessibility:
+Basic ARIA roles and labels are included, but more extensive accessibility testing may be required for production use.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
